@@ -1,0 +1,50 @@
+/* estilos da página */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* estilos do relógio */
+#clock {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  color: orangered;
+  text-shadow: 2px 2px #000;
+}
+
+#date {
+font-size: 50px;
+margin-left: -1650px;
+margin-top: -820px;
+position: absolute;
+color: orangered;
+font-weight: bold;
+font-family: 'Segoe Ui' 'sans-serif';
+text-shadow: 2px 2px #000;
+}
+
+#fundorelogio{
+  position: absolute;
+  margin-top: -580px;
+  margin-left: 755px;
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  border: solid 5px red;
+
+}
